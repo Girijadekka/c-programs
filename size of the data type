@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    char charType;
+    int intType;
+    long longType;
+    float floatType;
+    double doubleType;
+   
+    printf("Size of char: %ld byte\n",sizeof(charType));
+    printf("Size of int: %ld bytes\n",sizeof(intType));
+     printf("Size of long: %ld bytes\n",sizeof(longType));
+    printf("Size of float: %ld bytes\n",sizeof(floatType));
+    printf("Size of double: %ld bytes\n",sizeof(doubleType));
+    return 0;
+}
+output:
+Size of char: 1 byte
+Size of int: 4 bytes
+Size of long: 4 bytes Size of float: 4 bytes
+Size of double: 8 bytes
